@@ -1,0 +1,12 @@
+.DELETE_ON_ERROR:
+
+all: foo bar
+
+foo:
+	touch foo
+	false
+
+bar:
+	touch bar
+	false
+

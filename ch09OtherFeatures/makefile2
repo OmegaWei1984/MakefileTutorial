@@ -1,0 +1,10 @@
+some_file:
+	touch something
+	touch clean
+
+.PHONY: clean
+
+clean:
+	rm -f something
+	rm -f clean
+
